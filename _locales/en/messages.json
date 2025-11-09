@@ -1,0 +1,30 @@
+{
+  "appName": {
+    "message": "Degree Works Scanner",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Scan your Degree Works page and generate a JSON file of your academic progress.",
+    "description": "The description of the application"
+  },
+  "scanButton": {
+    "message": "Scan Degree Works",
+    "description": "Text for the scan button"
+  },
+  "scanning": {
+    "message": "Scanning...",
+    "description": "Text shown while scanning"
+  },
+  "scanned": {
+    "message": "Scanned!",
+    "description": "Text shown when scan is complete"
+  },
+  "error": {
+    "message": "Error",
+    "description": "Error message prefix"
+  },
+  "restrictedPage": {
+    "message": "This extension can only be used on the Degree Works page.",
+    "description": "Message for restricted pages"
+  }
+}

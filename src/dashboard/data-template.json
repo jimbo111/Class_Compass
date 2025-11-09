@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DegreeAudit",
+  "type": "object",
+  "properties": {
+    "student": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "degree": { "type": "string" },
+        "level": { "type": "string" },
+        "major": { "type": "string" },
+        "college": { "type": "string" },
+        "overallGPA": { "type": "string" },
+        "auditDate": { "type": "string" },
+        "catalogYear": { "type": "string" },
+        "creditsRequired": { "type": "number" },
+        "creditsApplied": { "type": "number" }
+      },
+      "required": [
+        "id",
+        "name",
+        "degree",
+        "level",
+        "major",
+        "college",
+        "overallGPA",
+        "auditDate",
+        "catalogYear",
+        "creditsRequired",
+        "creditsApplied"
+      ]
+    },
+
+    "requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": ["INCOMPLETE", "IN-PROGRESS", "COMPLETE"]
+          },
+          "creditsRequired": { "type": "number" },
+          "creditsApplied": { "type": "number" },
+          "catalogYear": { "type": "string" }
+        },
+        "required": ["id", "name", "status", "catalogYear"]
+      }
+    },
+
+    "completedCourses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": { "type": "string" },
+          "title": { "type": "string" },
+          "grade": { "type": "string" },
+          "credits": { "type": "number" },
+          "term": { "type": "string" },
+          "sbcCategory": { "type": "string" },
+          "sbcFulfillment": {
+            "type": "string",
+            "enum": ["FULL", "PARTIAL"]
+          },
+          "status": { "type": "string", "enum": ["COMPLETE"] }
+        },
+        "required": [
+          "code",
+          "title",
+          "grade",
+          "credits",
+          "term",
+          "sbcCategory",
+          "sbcFulfillment",
+          "status"
+        ]
+      }
+    },
+
+    "inProgressCourses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": { "type": "string" },
+          "title": { "type": "string" },
+          "grade": { "type": ["string", "null"] },
+          "credits": { "type": "number" },
+          "term": { "type": "string" },
+          "sbcCategory": { "type": "string" },
+          "sbcFulfillment": {
+            "type": "string",
+            "enum": ["FULL", "PARTIAL"]
+          },
+          "status": { "type": "string", "enum": ["IN-PROGRESS"] }
+        },
+        "required": [
+          "code",
+          "title",
+          "credits",
+          "term",
+          "sbcCategory",
+          "sbcFulfillment",
+          "status"
+        ]
+      }
+    },
+
+    "incompleteCourses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": { "type": "string" },
+          "title": { "type": "string" },
+          "credits": { "type": "number" },
+          "sbcCategory": { "type": "string" },
+          "sbcFulfillment": {
+            "type": "string",
+            "enum": ["FULL", "PARTIAL"]
+          },
+          "status": { "type": "string", "enum": ["INCOMPLETE"] },
+          "note": { "type": "string" }
+        },
+        "required": [
+          "code",
+          "title",
+          "credits",
+          "sbcCategory",
+          "sbcFulfillment",
+          "status"
+        ]
+      }
+    },
+
+    "unmetConditions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": { "type": "string" },
+          "creditsNeeded": { "type": "number" },
+          "note": { "type": "string" }
+        },
+        "required": ["description", "creditsNeeded"]
+      }
+    }
+  },
+
+  "required": [
+    "student",
+    "requirements",
+    "completedCourses",
+    "inProgressCourses",
+    "incompleteCourses",
+    "unmetConditions"
+  ]
+}

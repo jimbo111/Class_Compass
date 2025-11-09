@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Page Saver</title>
+  <link rel="stylesheet" href="popup.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header class="ps-header" role="banner">
+    <div class="ps-left">
+      <img src="../../icons/icon32.png" alt="" width="24" height="24" aria-hidden="true">
+    </div>
+    <div class="ps-title" aria-level="1">Degree Works Scanner</div>
+  </header>
+
+  <main class="ps-content">
+    <section class="ps-pageinfo" role="region" aria-label="Current page information">
+      <div class="ps-page-row">
+        <img id="favicon" class="ps-favicon" width="16" height="16" alt="">
+        <div class="ps-page-text">
+          <div id="pageTitle" class="ps-page-title" title=""></div>
+          <div id="pageHost" class="ps-page-host"></div>
+        </div>
+      </div>
+      <div id="restrictedBanner" class="ps-banner hidden" role="note">
+        ℹ️ This extension can only be used on the Degree Works page.
+      </div>
+    </section>
+
+    <button id="scanBtn" class="ps-primary" aria-live="polite">
+      Scan Degree Works
+    </button>
+    <p class="ps-credit">Built by Evan Zhang &amp; Jimmy Kim</p>
+    <div class="ps-about">
+      <button id="aboutToggle" class="ps-toggle" aria-expanded="false" aria-controls="aboutText">
+        What is this?
+      </button>
+      <p id="aboutText" class="ps-about-text hidden">
+        This was built by Evan Zhang &amp; Jimmy Kim during SBUHacks 2025 to make Degree Works easier to read.
+      </p>
+    </div>
+  </main>
+
+  <footer class="ps-footer">
+    <div id="statusText" class="ps-status">Ready</div>
+  </footer>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>

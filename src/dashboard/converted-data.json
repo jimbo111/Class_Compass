@@ -1,0 +1,393 @@
+{
+  "student": {
+    "name": "Kim, Jimmy",
+    "major": "Computer Science",
+    "creditsRequired": 120,
+    "creditsApplied": 122
+  },
+  "requirements": [
+    {
+      "id": "degree_in_bachelor_of_science",
+      "name": "Degree in Bachelor of Science",
+      "status": "IN-PROGRESS",
+      "creditsRequired": 120,
+      "creditsApplied": 122,
+      "catalogYear": "FALL 2024"
+    },
+    {
+      "id": "stony_brook_curriculum_requirements",
+      "name": "Stony Brook Curriculum Requirements",
+      "status": "IN-PROGRESS",
+      "creditsApplied": 45,
+      "catalogYear": "FALL 2024"
+    },
+    {
+      "id": "upper_division_credit_requirement",
+      "name": "Upper Division Credit Requirement",
+      "status": "IN-PROGRESS",
+      "catalogYear": "FALL 2024"
+    },
+    {
+      "id": "major_in_computer_science",
+      "name": "Major in Computer Science",
+      "status": "IN-PROGRESS",
+      "catalogYear": "FALL 2024"
+    }
+  ],
+  "completedCourses": [
+    {
+      "code": "HDV 101",
+      "title": "Introduction to Stony Brook",
+      "grade": "S",
+      "credits": 1,
+      "term": "Fall 2020",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "HDV 102",
+      "title": "Human Development",
+      "grade": "A",
+      "credits": 1,
+      "term": "Spring 2021",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "HIS 101",
+      "title": "European Hist: Antiqu to Revol",
+      "grade": "B",
+      "credits": 3,
+      "term": "Fall 2021",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "FLM 102",
+      "title": "Intro to Film/TV Composition",
+      "grade": "A",
+      "credits": 3,
+      "term": "FALL 2024",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "POL 102",
+      "title": "Intro to American Government",
+      "grade": "B+",
+      "credits": 3,
+      "term": "Fall 2020",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "CSE 114",
+      "title": "Intro to Object-Oriented Prog",
+      "grade": "B",
+      "credits": 4,
+      "term": "Fall 2020",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "WRT 101",
+      "title": "Introductory Writing Workshop",
+      "grade": "A-",
+      "credits": 3,
+      "term": "Fall 2020",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "WRT 102",
+      "title": "Intermediate Writing Workshop",
+      "grade": "B+",
+      "credits": 3,
+      "term": "Spring 2021",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "CSE 316",
+      "title": "Software Development",
+      "grade": "A-",
+      "credits": 3,
+      "term": "FALL 2024",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "AMS 210",
+      "title": "Applied Linear Algebra",
+      "grade": "B",
+      "credits": 3,
+      "term": "Fall 2020",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "AMS 301",
+      "title": "Finite Mathematical Structures",
+      "grade": "B",
+      "credits": 3,
+      "term": "Spring 2021",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "CSE 214",
+      "title": "Data Structures",
+      "grade": "A-",
+      "credits": 4,
+      "term": "Spring 2021",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "CSE 215",
+      "title": "Foundations of Comp Science",
+      "grade": "A-",
+      "credits": 4,
+      "term": "Spring 2021",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "CSE 216",
+      "title": "Programming Abstractions",
+      "grade": "B-",
+      "credits": 4,
+      "term": "Fall 2021",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "CSE 220",
+      "title": "Systems Fundamentals I",
+      "grade": "B+",
+      "credits": 4,
+      "term": "Fall 2021",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "CSE 303",
+      "title": "Intro to Theory of Computation",
+      "grade": "B+",
+      "credits": 3,
+      "term": "Fall 2021",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "CSE 310",
+      "title": "Computer Networks",
+      "grade": "B+",
+      "credits": 3,
+      "term": "Spring 2022",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "CSE 373",
+      "title": "Analysis of Algorithms",
+      "grade": "B+",
+      "credits": 3,
+      "term": "Spring 2022",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "MAT 131/AP",
+      "title": "Mathematics: Calculus AB",
+      "grade": "T",
+      "credits": 4,
+      "term": "Fall 2020",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "AMS 310",
+      "title": "Survey of Probability and Stat",
+      "grade": "B+",
+      "credits": 3,
+      "term": "Spring 2022",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "PHY 131",
+      "title": "Classical Physics I",
+      "grade": "A",
+      "credits": 3,
+      "term": "Spring 2022",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    },
+    {
+      "code": "PHI 104",
+      "title": "Moral Reasoning",
+      "grade": "W",
+      "credits": 0,
+      "term": "Spring 2022",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "COMPLETE"
+    }
+  ],
+  "inProgressCourses": [
+    {
+      "code": "MUS 101",
+      "title": "Intro/Western Classical Music",
+      "grade": null,
+      "credits": 3,
+      "term": "FALL 2025",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "IN-PROGRESS"
+    },
+    {
+      "code": "CSE 312",
+      "title": "Legal Issues in Computing",
+      "grade": null,
+      "credits": 3,
+      "term": "FALL 2025",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "IN-PROGRESS"
+    },
+    {
+      "code": "LIN 200",
+      "title": "Language in the United States",
+      "grade": null,
+      "credits": 3,
+      "term": "SPRING 2026",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "IN-PROGRESS"
+    },
+    {
+      "code": "CSE 300",
+      "title": "Technical Communications",
+      "grade": null,
+      "credits": 3,
+      "term": "FALL 2025",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "IN-PROGRESS"
+    },
+    {
+      "code": "CSE 320",
+      "title": "Systems Fundamentals II",
+      "grade": null,
+      "credits": 3,
+      "term": "FALL 2025",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "IN-PROGRESS"
+    },
+    {
+      "code": "CSE 416",
+      "title": "Software Engineering",
+      "grade": null,
+      "credits": 3,
+      "term": "SPRING 2026",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "IN-PROGRESS"
+    },
+    {
+      "code": "CSE 306",
+      "title": "Operating Systems",
+      "grade": null,
+      "credits": 3,
+      "term": "SPRING 2026",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "IN-PROGRESS"
+    },
+    {
+      "code": "GEO 102",
+      "title": "The Earth",
+      "grade": null,
+      "credits": 3,
+      "term": "FALL 2025",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "IN-PROGRESS"
+    },
+    {
+      "code": "AMS 261",
+      "title": "Applied Calculus III",
+      "grade": null,
+      "credits": 4,
+      "term": "WINTER 2026",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "IN-PROGRESS"
+    },
+    {
+      "code": "CSE 360",
+      "title": "Software Security",
+      "grade": null,
+      "credits": 3,
+      "term": "FALL 2025",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "IN-PROGRESS"
+    },
+    {
+      "code": "AMS 361",
+      "title": "Applied Calculus IV: Diff Equ",
+      "grade": null,
+      "credits": 4,
+      "term": "SPRING 2026",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "IN-PROGRESS"
+    },
+    {
+      "code": "CSE 327",
+      "title": "Computer Vision",
+      "grade": null,
+      "credits": 3,
+      "term": "SPRING 2026",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "IN-PROGRESS"
+    },
+    {
+      "code": "PHY 133",
+      "title": "Classical Physics Laboratory I",
+      "grade": null,
+      "credits": 1,
+      "term": "SPRING 2026",
+      "sbcCategory": "",
+      "sbcFulfillment": "FULL",
+      "status": "IN-PROGRESS"
+    }
+  ],
+  "incompleteCourses": [],
+  "unmetConditions": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "pop-up-webpage-v1.3",
+  "version": "1.0.0",
+  "main": "converter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jsdom": "^27.1.0"
+  }
+}
